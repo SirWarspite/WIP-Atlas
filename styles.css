@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #a3641c;
+    color: white;
+}
+
+header .logo {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background: linear-gradient(to right, #000000, #1d1d1d, #000000);
+    color: rgb(255, 255, 255);
+    padding: 15px 0;
+}
+
+#portfolio .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+#portfolio .item {
+    border: 1px solid #000000;
+    padding: 20px;
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
+    align-items: center;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #111;
+    color: white;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.ver a {
+    text-decoration: none;
+    color: inherit;
+  }
